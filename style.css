@@ -1,0 +1,114 @@
+/* leger RESET des Marge */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header logo haut droite */
+#header{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin: 30px;
+}
+
+/* annulations des puces du menu */
+#header li {
+    margin-left: 20px;
+}
+
+/* resize de l'image menu google */
+#header li img {
+    height: 30px;
+}
+
+/* CSS de la section block centrale page */
+
+section{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    
+}
+
+
+/* le logo Google*/
+
+section img {
+    height: 92px;
+    width: 272px;
+}
+
+
+/*barre de recherche */
+#searchBarre{
+    height: 34px;
+    width: 527px;
+    border-radius: 15px;
+    border: #F5F5F5 solid;
+    margin-top: 20px;
+}
+
+/* les 2 boutonn de recherche */
+#buttonRecherche input{
+    cursor: pointer;
+    height: 36px ;
+    width: 150px ;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+#buttonRecherche input:hover{
+    box-shadow: 0 1px 1px;
+}
+
+/*Footer Generale*/ 
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer{
+   display: inline-block;
+   
+   
+}
+#country {
+    background-color: #F2F2F2;
+    margin-top: 20%;
+    margin-bottom: 0px;
+    padding-left: 50px;
+}
+
+#footer_left ul{
+    display: flex;
+   justify-content: flex-start;
+   background-color: #F2F2F2;
+    float: left;
+    margin-top: 0px;
+    padding-bottom: 5%;
+  
+}
+#footer_left ul li{
+    margin: 10px;
+    list-style: none;
+
+}
+
+#footer_right ul{
+    display: flex;
+    justify-content: end;
+    background-color: #F2F2F2;
+    margin-top: 0px;
+    padding-bottom: 5%;
+
+   
+}
+
+#footer_right ul li{ 
+    margin: 10px;
+    list-style: none;
+    
+}
